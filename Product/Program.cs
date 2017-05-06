@@ -10,6 +10,8 @@ namespace Product
     {
         static void Main(string[] args)
         {
+            var p = new Product();
+            p.MethodA();
         }
     }
 }
