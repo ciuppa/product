@@ -10,11 +10,11 @@ namespace Product
     {
         static void Main(string[] args)
         {
-            var p = new Product();
-            p.MethodA();
-
             var t = new Topic();
             t.MethodA();
+
+            var p = new Product("git");
+            p.MethodA();
         }
     }
 }

@@ -8,20 +8,28 @@ namespace Product
 {
     public class Product
     {
-        public Product()
+        public Product(string name)
         {
+            Name = name;
         }
 
         public void MethodA()
         {
+            MethodC(Name);
         }
 
         public void MethodB()
         {
         }
 
-        public void MethodC()
+        public void MethodC(string name)
         {
+        }
+
+        public string Name
+        {
+            get;
+            set;
         }
     }
 }
