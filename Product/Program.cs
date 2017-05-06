@@ -13,7 +13,7 @@ namespace Product
             var p = new Product();
             p.MethodA();
 
-            var t = new Topic();
+            var t = new Topic("help");
             t.MethodA();
         }
     }
