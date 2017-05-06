@@ -12,6 +12,9 @@ namespace Product
         {
             var p = new Product();
             p.MethodA();
+
+            var t = new Topic();
+            t.MethodA();
         }
     }
 }
