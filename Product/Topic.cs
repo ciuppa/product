@@ -13,6 +13,11 @@ namespace Product
             Name = name;
         }
 
+	public Topic()
+        {
+            Name = name;
+        }
+
         public void MethodA()
         {
             MethodC(Name);
